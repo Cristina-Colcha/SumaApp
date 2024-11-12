@@ -61,20 +61,7 @@ Para clonar este repositorio en tu máquina local, sigue estos pasos:
     Ingresa a la carpeta del proyecto recién clonada:
 
     cd SumaApp
-## Contribuir
-    Si deseas contribuir al proyecto, sigue los pasos anteriores para clonar el repositorio, crea una nueva rama para tus cambios y luego abre una Pull Request.
-
-1. **Crea una rama nueva:**
-
-    git checkout -b nombre-de-la-rama
-2. **Realiza tus cambios y súbelos:**
-
-    git add .
-    git commit -m "Descripción de los cambios"
-    git push origin nombre-de-la-rama
-    Abre una Pull Request desde tu rama en GitHub.
-    
-    
+  
 ## EJECUCION DEL PROGRAMA##
 ## Instalar Dependencias (si es necesario)##
     Si aún no has instalado las dependencias necesarias, abre la terminal en el directorio del proyecto y ejecuta el siguiente comando:
@@ -89,10 +76,13 @@ Para clonar este repositorio en tu máquina local, sigue estos pasos:
 ## Acceder a la aplicación: Una vez que el proyecto esté ejecutándose, abre tu navegador y ve a la siguiente URL:##
 
     http://localhost:5054/
-## Usar la aplicación: ##
+## Usar la aplicación: 
 
 1. Ingresa dos números en los campos de texto.
 2. Haz clic en el botón "Sumar".
 3. El resultado de la suma se mostrará debajo del formulario.
 
-Este `README.md` proporciona instrucciones claras para clonar el repositorio y colaborar en el proyecto, además de una breve descripción y la licencia del proyecto.
+## Contribuir
+    Si deseas contribuir al proyecto, sigue los pasos anteriores para clonar el repositorio, crea una nueva rama para tus cambios y luego abre una Pull Request.
+
+    Este `README.md` proporciona instrucciones claras para clonar el repositorio y colaborar en el proyecto, además de una breve descripción y la licencia del proyecto.
