@@ -10,28 +10,28 @@ Este es un proyecto en ASP.NET Core MVC que permite al usuario ingresar dos núm
 
 ## Estructura del Proyecto
 
-SumaApp/
-│
-├── Controllers/
-│   └── HomeController.cs          # Lógica de la aplicación (acciones y cálculo de la suma)
-│
-├── Models/
-│   └── ErrorViewModel.cs          # Modelo para la vista de error (si se presenta uno)
-│
-├── Views/
-│   └── Home/
-│       └── Index.cshtml           # Vista principal con el formulario y el resultado de la suma
-│   └── Shared/
-│       └── Error.cshtml           # Vista de error que se muestra en caso de un fallo
-│
-├── wwwroot/                       # Archivos estáticos como imágenes, CSS, JS
-│   └── css/
-│       └── site.css               # Estilos CSS para el diseño de la página
-│
-├── appsettings.json               # Configuración general de la aplicación
-├── Program.cs                     # Punto de entrada principal de la aplicación
-├── SumaApp.csproj                 # Archivo del proyecto que incluye dependencias y configuraciones
-└── README.md                      # Documento de descripción del proyecto (para compartir o colaborar)
+    SumaApp/
+    │
+    ├── Controllers/
+    │   └── HomeController.cs          # Lógica de la aplicación (acciones y cálculo de la suma)
+    │
+    ├── Models/
+    │   └── ErrorViewModel.cs          # Modelo para la vista de error (si se presenta uno)
+    │
+    ├── Views/
+    │   └── Home/
+    │       └── Index.cshtml           # Vista principal con el formulario y el resultado de la suma
+    │   └── Shared/
+    │       └── Error.cshtml           # Vista de error que se muestra en caso de un fallo
+    │
+    ├── wwwroot/                       # Archivos estáticos como imágenes, CSS, JS
+    │   └── css/
+    │       └── site.css               # Estilos CSS para el diseño de la página
+    │
+    ├── appsettings.json               # Configuración general de la aplicación
+    ├── Program.cs                     # Punto de entrada principal de la aplicación
+    ├── SumaApp.csproj                 # Archivo del proyecto que incluye dependencias y configuraciones
+    └── README.md                      # Documento de descripción del proyecto (para compartir o colaborar)
 
 ## Requisitos
 
