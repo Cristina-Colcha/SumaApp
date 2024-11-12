@@ -1,6 +1,6 @@
 # Suma de dos números
 
-Este es un proyecto simple en ASP.NET Core MVC que permite al usuario ingresar dos números y calcular la suma de esos números. La aplicación está construida utilizando C# y el patrón MVC (Modelo-Vista-Controlador).
+Este es un proyecto en ASP.NET Core MVC que permite al usuario ingresar dos números y calcular la suma de esos números. La aplicación está construida utilizando C# y el patrón MVC (Modelo-Vista-Controlador).
 
 ## Características
 
@@ -35,8 +35,8 @@ SumaApp/
 
 ## Requisitos
 
-- **.NET Core 6.0 o superior**
-- **Visual Studio o Visual Studio Code** con la extensión de C# instalada.
+- .NET Core 6.0 o superior
+- Visual Studio o Visual Studio Code con la extensión de C# instalada.
 
 ## Instrucciones
 
@@ -45,7 +45,7 @@ SumaApp/
 Para clonar este repositorio en tu máquina local, sigue estos pasos:
 
 1. **Instala Git**  
-     Si aún no tienes Git instalado, puedes descargarlo desde [aquí](https://git-scm.com/downloads).
+     Si aún no tienes Git instalado.
 
 2. **Abre tu terminal o símbolo del sistema**  
     Abre la terminal en tu sistema operativo (como Terminal en macOS/Linux o Git Bash en Windows).
