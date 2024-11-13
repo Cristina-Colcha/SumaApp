@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SumarNumerosApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+abf7243c7dac6b3177470087861679a4691ae0bd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2934764451c8f6b934d548f66d1904cdf9204f47")]
 [assembly: System.Reflection.AssemblyProductAttribute("SumarNumerosApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SumarNumerosApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
