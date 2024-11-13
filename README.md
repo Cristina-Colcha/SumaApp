@@ -1,88 +1,67 @@
-# Suma de dos números
-
-Este es un proyecto en ASP.NET Core MVC que permite al usuario ingresar dos números y calcular la suma de esos números. La aplicación está construida utilizando C# y el patrón MVC (Modelo-Vista-Controlador).
-
-## Características
-
-- Interfaz web simple con dos campos de entrada para números.
-- Calcula y muestra el resultado de la suma de los dos números.
-- La suma se realiza en el servidor y el resultado se muestra en la misma página.
-
-## Estructura del Proyecto
-
-    SumaApp/
+ 
+# Sum of two numbers
+This is an ASP.NET Core MVC project that allows the user to enter two numbers and calculate the sum of those numbers. The application is built using C# and the MVC (Model-View-Controller) pattern.
+## Features
+- Simple web interface with two input fields for numbers.
+- Calculates and displays the result of the sum of the two numbers.
+- The addition is performed on the server and the result is displayed on the same page.
+## Project Structure
+    SumApp/
     │
     ├── Controllers/
-    │   └── HomeController.cs          # Lógica de la aplicación (acciones y cálculo de la suma)
+    │ └─── HomeController.cs # Application logic (actions and sum calculation).
     │
-    ├── Models/
-    │   └── ErrorViewModel.cs          # Modelo para la vista de error (si se presenta uno)
+    ├─── Models/.
+    │ └└── ErrorViewModel.cs # Model for error view (if one is present).
     │
-    ├── Views/
-    │   └── Home/
-    │       └── Index.cshtml           # Vista principal con el formulario y el resultado de la suma
-    │   └── Shared/
-    │       └── Error.cshtml           # Vista de error que se muestra en caso de un fallo
+    ├─── Views/
+    │ └└── Home/
+    │ └─── Index.cshtml # Main view with form and sum result.
+    │ └└── Shared/.
+    │ └└─── Error.cshtml # Error view displayed in case of a failure.
     │
-    ├── wwwroot/                       # Archivos estáticos como imágenes, CSS, JS
-    │   └── css/
-    │       └── site.css               # Estilos CSS para el diseño de la página
+    ├─── wwwroot/ # Static files such as images, CSS, JS.
+    │ └└── css/
+    │ └└── site.css # CSS styles for page layout.
     │
-    ├── appsettings.json               # Configuración general de la aplicación
-    ├── Program.cs                     # Punto de entrada principal de la aplicación
-    ├── SumaApp.csproj                 # Archivo del proyecto que incluye dependencias y configuraciones
-    └── README.md                      # Documento de descripción del proyecto (para compartir o colaborar)
-
-## Requisitos
-
-- .NET Core 6.0 o superior
-- Visual Studio o Visual Studio Code con la extensión de C# instalada.
-
-## Instrucciones
-
-## Clonar el repositorio
-
-Para clonar este repositorio en tu máquina local, sigue estos pasos:
-
-1. **Instala Git**  
-     Si aún no tienes Git instalado.
-
-2. **Abre tu terminal o símbolo del sistema**  
-    Abre la terminal en tu sistema operativo (como Terminal en macOS/Linux o Git Bash en Windows).
-
-3. **Navega al directorio donde deseas clonar el proyecto**  
-    Usa el comando `cd` para dirigirte al directorio deseado. Por ejemplo:
-
-    cd ruta/del/directorio
-4. **Clona el repositorio**  
-
+    ├─── appsettings.json # General application settings.
+    ├── Program.cs # Main entry point of the application.
+    ├─── SumaApp.csproj # Project file including dependencies and settings.
+    └──── README.md # Project description document (for sharing or collaboration).
+## Requirements.
+- .NET Core 6.0 or higher
+- Visual Studio or Visual Studio Code with the C# extension installed.
+## Instructions
+## Clone the repository
+To clone this repository on your local machine, follow these steps:
+1. **Install Git**.  
+     If you don't already have Git installed.
+2. **Open your terminal or command prompt**.  
+    Open the terminal on your operating system (such as Terminal on macOS/Linux or Git Bash on Windows).
+3. **Navigate to the directory where you want to clone the project**.  
+    Use the `cd` command to navigate to the desired directory. For example:
+    cd path/dir/directory
+4. **Clone the repository**  
    git clone https://github.com/Cristina-Colcha/SumaApp.git
-5. **Accede al repositorio clonado**
-    Ingresa a la carpeta del proyecto recién clonada:
-
+5. **Access the cloned repository**.
+    Access the newly cloned project folder:
     cd SumaApp
   
-## EJECUCION DEL PROGRAMA##
-## Instalar Dependencias (si es necesario)##
-    Si aún no has instalado las dependencias necesarias, abre la terminal en el directorio del proyecto y ejecuta el siguiente comando:
-
+## RUN THE PROGRAM
+## Install Dependencies (if necessary)##
+    If you have not yet installed the necessary dependencies, open the terminal in the project directory and run the following command:
     dotnet restore
-## Ejecutar el proyecto:##
-
-1. En Visual Studio, haz clic en el botón de "Run" o presiona F5 para iniciar el proyecto.
-2. En Visual Studio Code, abre la terminal integrada y ejecuta el siguiente comando:
-
+## Run the project:##
+1. In Visual Studio, click the “Run” button or press F5 to start the project.
+2. In Visual Studio Code, open the built-in terminal and run the following command:
     dotnet run
-## Acceder a la aplicación: Una vez que el proyecto esté ejecutándose, abre tu navegador y ve a la siguiente URL:##
-
+## Accessing the application: Once the project is running, open your browser and go to the following URL:##
     http://localhost:5054/
-## Usar la aplicación: 
+## Using the application: 
+1. Enter two numbers in the text fields.
+2. Click on the “Add” button.
+3. The result of the sum will be displayed below the form.
+## Contribute
+    If you wish to contribute to the project, follow the steps above to clone the repository, create a new branch for your changes and then open a Pull Request.
+    This `README.md` provides clear instructions for cloning the repository and contributing to the project, as well as a brief description and the project license.
 
-1. Ingresa dos números en los campos de texto.
-2. Haz clic en el botón "Sumar".
-3. El resultado de la suma se mostrará debajo del formulario.
-
-## Contribuir
-    Si deseas contribuir al proyecto, sigue los pasos anteriores para clonar el repositorio, crea una nueva rama para tus cambios y luego abre una Pull Request.
-
-    Este `README.md` proporciona instrucciones claras para clonar el repositorio y colaborar en el proyecto, además de una breve descripción y la licencia del proyecto.
