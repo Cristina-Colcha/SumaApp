@@ -66,7 +66,7 @@ To clone this repository on your local machine, follow these steps:
     Using the Docker image from Docker Hub
 ## If you want to use the Docker Hub image:
 
-    Download image from Docker Hub:
+* Download image from Docker Hub:
     The container is configured to run on port 5004 you can use the image with the following message
 
     docker pull cristinacolcha/sumar-numeros.app:latest
