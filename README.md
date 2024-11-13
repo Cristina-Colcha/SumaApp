@@ -63,5 +63,13 @@ To clone this repository on your local machine, follow these steps:
 3. The result of the sum will be displayed below the form.
 ## Contribute
     If you wish to contribute to the project, follow the steps above to clone the repository, create a new branch for your changes and then open a Pull Request.
+    Using the Docker image from Docker Hub
+## If you want to use the Docker Hub image:
+
+    Download image from Docker Hub:
+    The container is configured to run on port 5004 you can use the image with the following message
+
+    docker pull cristinacolcha/sumar-numeros.app:latest
+
     This `README.md` provides clear instructions for cloning the repository and contributing to the project, as well as a brief description and the project license.
 
