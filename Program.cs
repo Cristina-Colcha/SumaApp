@@ -5,17 +5,18 @@ builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
-// Configure to listen on port 80
-app.Urls.Add("http://*:80"); 
-
 // Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment())
+{
+    app.UseDeveloperExceptionPage();
+}
+else
 {
     app.UseExceptionHandler("/Home/Error");
     app.UseHsts();
 }
 
-// app.UseHttpsRedirection(); // Comentado para pruebas en Docker
+app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
