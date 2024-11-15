@@ -1,21 +1,24 @@
 ﻿@{
-    ViewData["Title"] = "Suma de dos números";
+    ViewData["Title"] = "Suma de Números";
 }
 
-<h2>@ViewData["Title"]</h2>
+<h1>@ViewData["Title"]</h1>
 
-<form method="post" action="/Home/Sumar">
-    <label for="numero1">Número 1:</label>
-    <input type="number" id="numero1" name="numero1" required />
-
-    <label for="numero2">Número 2:</label>
-    <input type="number" id="numero2" name="numero2" required />
-
-    <button type="submit">Sumar</button>
+<form method="post" action="/Home/CalcularSuma">
+    <div>
+        <label for="numero1">Número 1:</label>
+        <input type="number" id="numero1" name="numero1" required />
+    </div>
+    <div>
+        <label for="numero2">Número 2:</label>
+        <input type="number" id="numero2" name="numero2" required />
+    </div>
+    <div>
+        <button type="submit">Sumar</button>
+    </div>
 </form>
 
-@if(ViewBag.Resultado != null)
+@if (ViewData["Resultado"] != null)
 {
-    <h3>Resultado: @ViewBag.Resultado</h3>
+    <h3>Resultado: @ViewData["Resultado"]</h3>
 }
-

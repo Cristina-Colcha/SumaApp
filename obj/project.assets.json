@@ -1,36 +1,36 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net9.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
+    "C:\\Users\\Sistemas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Documents\\GitHub\\SumaApp\\SumarNumerosApp.csproj",
-      "projectName": "SumarNumerosApp",
-      "projectPath": "C:\\Users\\Usuario\\Documents\\GitHub\\SumaApp\\SumarNumerosApp.csproj",
-      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Documents\\GitHub\\SumaApp\\obj\\",
+      "projectUniqueName": "C:\\Users\\Sistemas\\Documents\\GitHub\\SumaApp\\SumaApp.csproj",
+      "projectName": "SumaApp",
+      "projectPath": "C:\\Users\\Sistemas\\Documents\\GitHub\\SumaApp\\SumaApp.csproj",
+      "packagesPath": "C:\\Users\\Sistemas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sistemas\\Documents\\GitHub\\SumaApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Sistemas\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net8.0"
+        "net9.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "projectReferences": {}
         }
       },
@@ -42,12 +42,13 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
-      }
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
-      "net8.0": {
-        "targetAlias": "net8.0",
+      "net9.0": {
+        "targetAlias": "net9.0",
         "imports": [
           "net461",
           "net462",
@@ -67,7 +68,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

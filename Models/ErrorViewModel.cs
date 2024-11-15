@@ -1,4 +1,4 @@
-namespace SumarNumerosApp.Models;
+namespace SumaApp.Models;
 
 public class ErrorViewModel
 {
@@ -6,4 +6,3 @@ public class ErrorViewModel
 
     public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
 }
- 

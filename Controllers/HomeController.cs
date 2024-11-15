@@ -1,38 +1,22 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using SumarNumerosApp.Models;
 
-namespace SumarNumerosApp.Controllers;
-
-public class HomeController : Controller
+namespace SumaApp.Controllers
 {
-    private readonly ILogger<HomeController> _logger;
+    public class HomeController : Controller
+    {
+        // Acción GET para mostrar el formulario
+        public IActionResult Index()
+        {
+            return View();
+        }
 
-    public HomeController(ILogger<HomeController> logger)
-    {
-        _logger = logger;
-    }
- 
-    public IActionResult Index()
-    {
-        return View();
-    }
-    [HttpPost]
-    public IActionResult Sumar(int numero1, int numero2)
-    {
-        int resultado = numero1 + numero2;
-        ViewBag.Resultado = resultado;
-        return View("Index");
-    }
-
-    public IActionResult Privacy()
-    {
-        return View();
-    }
-
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        // Acción POST para realizar la suma
+        [HttpPost]
+        public IActionResult CalcularSuma(int numero1, int numero2)
+        {
+            int resultado = numero1 + numero2;
+            ViewData["Resultado"] = resultado;
+            return View("Index");
+        }
     }
 }
