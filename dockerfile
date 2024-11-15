@@ -8,7 +8,7 @@ RUN dotnet restore
 
 # Copia todo el código y compílalo en modo de liberación
 COPY . .
-RUN dotnet publish SumarNumerosApp.csproj -c Release -o /out
+dotnet publish SumarNumerosApp.csproj -c Release -o /out
 
 # Usa la imagen base oficial de .NET ASP.NET Runtime 8.0 para ejecutar el proyecto
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
